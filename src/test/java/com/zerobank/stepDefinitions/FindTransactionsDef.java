@@ -1,22 +1,17 @@
-package stepDefinitions;
+package com.zerobank.stepDefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.LoginPage;
-import utilities.ConfigurationReader;
-import utilities.Driver;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.zerobank.pages.LoginPage;
+import com.zerobank.utilities.ConfigurationReader;
+import com.zerobank.utilities.Driver;
 
 public class FindTransactionsDef {
     WebDriverWait wait = new WebDriverWait(Driver.get(),20);

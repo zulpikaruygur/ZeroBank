@@ -1,4 +1,4 @@
-package stepDefinitions;
+package com.zerobank.stepDefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -7,9 +7,9 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import pages.LoginPage;
-import utilities.ConfigurationReader;
-import utilities.Driver;
+import com.zerobank.pages.LoginPage;
+import com.zerobank.utilities.ConfigurationReader;
+import com.zerobank.utilities.Driver;
 
 import java.util.ArrayList;
 

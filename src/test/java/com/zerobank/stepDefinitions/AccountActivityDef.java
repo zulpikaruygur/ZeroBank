@@ -1,13 +1,12 @@
-package stepDefinitions;
+package com.zerobank.stepDefinitions;
 
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import pages.LoginPage;
-import utilities.ConfigurationReader;
-import utilities.Driver;
+import com.zerobank.pages.LoginPage;
+import com.zerobank.utilities.ConfigurationReader;
+import com.zerobank.utilities.Driver;
 
 public class AccountActivityDef {
 

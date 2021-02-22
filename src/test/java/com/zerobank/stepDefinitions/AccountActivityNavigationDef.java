@@ -1,14 +1,11 @@
-package stepDefinitions;
+package com.zerobank.stepDefinitions;
 
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import net.bytebuddy.implementation.bind.DeclaringTypeResolver;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import utilities.Driver;
+import com.zerobank.utilities.Driver;
 
 public class AccountActivityNavigationDef {
 

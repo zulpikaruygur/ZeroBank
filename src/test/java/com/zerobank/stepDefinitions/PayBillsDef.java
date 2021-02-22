@@ -1,11 +1,10 @@
-package stepDefinitions;
+package com.zerobank.stepDefinitions;
 
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import utilities.Driver;
+import com.zerobank.utilities.Driver;
 
 public class PayBillsDef {
 
